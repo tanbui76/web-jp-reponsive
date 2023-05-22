@@ -136,7 +136,7 @@
 
 .wrapper-section-seller {
 
-    margin-top: 200px
+    padding: 40px 0;
 }
 
 .list-seller {
@@ -219,7 +219,7 @@
 
 }
 
-.block-box .img-common-2{
+.block-box .img-common-2 {
     position: absolute;
     left: 33%;
     top: 50%;
@@ -661,36 +661,47 @@
         padding-top: 130px;
     }
 
-  .img-2{
-    width: 45%;
-  }
-  .block-box{    
-    position: static !important;
-    text-align: center !important;
+    .img-2 {
+        width: 45%;
+    }
 
-  }
-  #img-common-1{
-    position: static !important;
-    margin-bottom:1.5rem;
-  }
+    .block-box {
+        position: static !important;
+        text-align: center !important;
 
-  #img-common-2{
-    position: static !important;
-    margin-bottom:1.5rem;
-  }
-  .btn-button{
-    text-align: center;
-  }
-  .guid-right .guid-content {
-    padding:0 !important;
-}
-.common-content{
-    padding: 0;
-    text-align: center;
-}
-.blog-detail{
-    margin-bottom: 10%;
-}
+    }
+
+    #img-common-1 {
+        position: static !important;
+        margin-bottom: 1.5rem;
+    }
+
+    #img-common-2 {
+        position: static !important;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-button {
+        text-align: center;
+    }
+
+    .guid-right .guid-content {
+        padding: 0 !important;
+    }
+
+    .common-content {
+        padding: 0;
+        text-align: center;
+    }
+
+    .blog-detail {
+        margin-bottom: 10%;
+    }
+
+    .footer-navigation-list .link-item {
+        margin-bottom: 1.25rem;
+        ;
+    }
 
 
 
