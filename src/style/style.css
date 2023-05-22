@@ -2,9 +2,6 @@ ul {
     list-style: none;
 }
 
-*{
-    overflow-x: hidden;
-}
 a {
     color: #000;
     text-decoration: none !important;
