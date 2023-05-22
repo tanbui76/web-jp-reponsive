@@ -50,7 +50,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
-    padding-top:13% ;
+    padding-top: 13%;
 }
 
 .cosmetics-content {
@@ -73,38 +73,44 @@ a {
     background-color: #fff;
     color: #000;
 }
-.pd-natural-cosmetic-brand{
+
+.pd-natural-cosmetic-brand {
     padding-top: 80px;
     padding-bottom: 200px;
 }
-.img-1
-{
+
+.img-1 {
     position: relative;
 }
-.img-2{
+
+.img-2 {
     position: absolute;
     top: 50%;
     left: 55%;
 }
-.gray-text{
+
+.gray-text {
     color: #c5c5c5;
     letter-spacing: 0.025em;
     font-weight: bold;
 }
 
-.natural-cosmetic-brand-h1{
+.natural-cosmetic-brand-h1 {
     font-size: 27px;
     font-weight: bold;
 }
-.common-text{
+
+.common-text {
     font-weight: 500;
     letter-spacing: 0.03em;
     line-height: 1.714;
 }
-.cosmetics-button{
+
+.cosmetics-button {
     margin-top: 5%;
 }
-hr{
+
+hr {
     margin-top: 1rem;
     margin-bottom: 2rem;
     border: 1px solid;
@@ -112,10 +118,12 @@ hr{
     margin-left: 0;
     color: gray;
 }
-.seller-section-1{
+
+.seller-section-1 {
     text-align: center;
 }
-.custom-hr{
+
+.custom-hr {
     margin-top: 1rem;
     margin-bottom: 2rem;
     border: 1px solid;
@@ -125,47 +133,57 @@ hr{
     color: gray;
 }
 
-.seller-decrible{
+.seller-decrible {
     margin-bottom: 0;
 }
-.seller-title{
-    color: red;padding: 50px 0 0 0;margin-bottom: 0;
+
+.seller-title {
+    color: red;
+    padding: 50px 0 0 0;
+    margin-bottom: 0;
 }
-.section-seller{
+
+.section-seller {
     background-image: url("/src/img/bg_best_seller.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.img-guide-2{
+
+.img-guide-2 {
     top: 50%;
     right: 5%;
 
 }
-.container-guide{
+
+.container-guide {
     text-align: center;
 }
-.section-3{
+
+.section-3 {
     padding: 100px 0px 200px 0px;
 }
-.advantage-h3{
+
+.advantage-h3 {
     font-weight: 800;
     letter-spacing: 0.03em;
     color: #333;
     font-size: 18px;
     margin-bottom: 15px;
 }
-.advantage-img{
+
+.advantage-img {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.product-img{
+.product-img {
     box-shadow: none;
     transition: 0.3s all ease-in-out;
 }
-.product-img:hover{
+
+.product-img:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.45);
 }
 
@@ -181,73 +199,107 @@ hr{
     .cosmetics {
         font-size: 50px;
     }
+
     .cosmetics-content {
         font-size: 15px;
     }
+
     .cosmetics-button {
         padding: 10px 30px;
     }
-    .img-2{
+
+    .img-2 {
         left: 50%;
     }
-    .natural-cosmetic-brand-h1{
+
+    .natural-cosmetic-brand-h1 {
         font-size: 20px;
     }
-    .common-text{
+
+    .common-text {
         font-size: 15px;
     }
-    .seller-title{
+
+    .seller-title {
         font-size: 20px;
     }
-    .section-seller{
+
+    .section-seller {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .section-3{
+
+    .section-3 {
         padding: 50px 0px 100px 0px;
     }
-    .advantage-h3{
+
+    .advantage-h3 {
         font-size: 15px;
     }
-    .advantage-img{
+
+    .advantage-img {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .product-img{
+
+    .product-img {
         box-shadow: none;
         transition: 0.3s all ease-in-out;
     }
-    .product-img:hover{
+
+    .product-img:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.45);
     }
-    .img-guide-2{
+
+    .img-guide-2 {
         top: 50%;
         right: 0%;
     }
-    .container-guide{
+
+    .container-guide {
         text-align: center;
     }
-    .section-3{
+
+    .section-3 {
         padding: 100px 0px 200px 0px;
     }
-    .advantage-h3{
+
+    .advantage-h3 {
         font-weight: 800;
         letter-spacing: 0.03em;
         color: #333;
         font-size: 18px;
         margin-bottom: 15px;
     }
-    .advantage-img{
+
+    .advantage-img {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .product-img{
+
+    .product-img {
         box-shadow: none;
         transition: 0.3s all ease-in-out;
     }
-    .product-img:hover{
+
+    .product-img:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.45);
     }
-    
-    
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .img-guide-2 {
+        position: absolute !important;
+    }
+}
+
+.icon-testimonia {
+    top: -25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
