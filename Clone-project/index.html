@@ -18,7 +18,7 @@
             <header class="container flex-direction-column justify-content">
 
                 <!--  NAVBAR PC-->
-                <nav class="navbar navbar-expand-lg fixed-top nav-pc ">
+                <nav class="navbar navbar-expand-lg nav-pc ">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/images/logo.png" alt="logo.png" width="115" height="61">
                     </a>
@@ -73,7 +73,7 @@
 
 
                 <!-- NAVBAR MOBILE -->
-                <nav class="navbar navbar-expand-lg fixed-top nav-mobile ">
+                <nav class="navbar navbar-expand-lg nav-mobile ">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/images/logo.png" alt="logo.png" width="115" height="61">
                     </a>
@@ -130,7 +130,7 @@
 
                         <div class="col-lg-6">
                             <div class="hero-img">
-                                <img class="img-hero" src="/assets/images/ttl_keyvisual.png" alt="ttl_keyvisual.png"
+                                <img class="img-hero" src="./assets/images/ttl_keyvisual.png" alt="ttl_keyvisual.png"
                                     class="img-fluid">
                             </div>
                             <div class="content">
@@ -164,7 +164,7 @@
                     </div>
                     <div class="col-lg-8 mt-lg-0 mt-5 position-relative">
                         <img src="./assets/images/img_brand_01.jpg" alt="img_brand_01.jpg" class="img-1 w-75 w-lg-100">
-                        <img src="./assets/images/img_brand_02.jpg" alt="img_brand_02" class="img-2 w-25 w-lg-100">
+                        <img src="./assets/images/img_brand_02.jpg" alt="img_brand_02" class="img-2  w-lg-100">
                     </div>
                 </div>
             </div>
@@ -253,9 +253,11 @@
                             MOST RADIANT SELF</h2>
                         <hr class="custom-width">
                     </div>
-                    <div class="block-img">
-                        <img class="img-common-1" src="./assets/images/img_guide_01.jpg" alt="img_guide_01.jpg">
-                        <img class="img-common-2" src="./assets/images/img_guide_02.jpg" alt="img_guide_02.jpg">
+                    <div class="block-box">
+                        <img id="img-common-1" class="img-common-1" src="./assets/images/img_guide_01.jpg"
+                            alt="img_guide_01.jpg">
+                        <img id="img-common-2" class="img-common-2" src="./assets/images/img_guide_02.jpg"
+                            alt="img_guide_02.jpg">
                     </div>
 
                 </div>
@@ -267,7 +269,10 @@
                             サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
                         </p>
                         <p class="guid-content">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
-                        <button type="button" class="btn btn-dark custom">購入はこちら</button>
+                        <div class="btn-button">
+                            <button type="button" class="btn btn-dark custom">購入はこちら</button>
+                        </div>
+
                     </div>
 
                 </div>
@@ -278,7 +283,7 @@
 
 
         <!-- ADVANTAGES PRODUCTS -->
-        <!-- <div class="container-fluid bg-advantage">
+        <div class="container-fluid bg-advantage">
             <div>
                 <div class="container section-advantage">
                     <div class="advantage-top">
@@ -309,7 +314,7 @@
                 </div>
             </div>
 
-        </div> -->
+        </div>
 
         <!-- END ADVANTAGES PRODUCTS -->
 
@@ -317,7 +322,7 @@
 
 
         <!-- PICK COLLECTION -->
-        <!-- <div class="container collection">
+        <div class="container collection">
             <div class="collection-top">
                 <p class="is-japanese">スタッフおすすめの商品</p>
                 <h2 class="is-english font-raleway">FROM EDITOR'S PICK COLLECTION</h2>
@@ -330,24 +335,7 @@
                         <div class="product-img">
                             <img src="./assets/images/img_product_01.jpg" alt="img_product_01.jpg" width="250"
                                 height="355">
-                            <ul class="select-icon">
-                                <li>
-                                    <img src="./assets/images/icon_product_view.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_like.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_cart.png" alt="" width="30"
-                                        height="30">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_load.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                            </ul>
+                        
                         </div>
                         <div class="product-desc">
                             <h2 class="product-title">FACE</h2>
@@ -355,7 +343,6 @@
                             <p class="product-price">
                                 <span class="price-original">¥1,203</span>
                                 <span class="price-seller">¥999</span>
-
                             </p>
                         </div>
                     </a>
@@ -365,27 +352,9 @@
                 <li class="col-sm-12 col-lg-3">
                     <a class="product-link" href="#">
                         <div class="product-img">
-                            <span class="green">New</span>
+                            <!-- <span class="green">New</span> -->
                             <img src="./assets/images/img_product_02.jpg" alt="img_product_01.jpg" width="250"
                                 height="355">
-                            <ul class="select-icon">
-                                <li>
-                                    <img src="./assets/images/icon_product_view.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_like.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_cart.png" alt="" width="30"
-                                        height="30">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_load.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                            </ul>
                         </div>
                         <div class="product-desc">
                             <h2 class="product-title">FACE</h2>
@@ -393,8 +362,6 @@
                             <p class="product-price">
                                 <span class="price-original">¥1,203</span>
                                 <span class="price-seller">¥999</span>
-
-
                             </p>
                             <ul class="color-list">
                                 <li class="medium-light"></li>
@@ -410,24 +377,7 @@
                         <div class="product-img">
                             <img src="./assets/images/img_product_03.jpg" alt="img_product_01.jpg" width="250"
                                 height="355">
-                            <ul class="select-icon">
-                                <li>
-                                    <img src="./assets/images/icon_product_view.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_like.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_cart.png" alt="" width="30"
-                                        height="30">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_load.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                            </ul>
+                           
                         </div>
                         <div class="product-desc">
                             <h2 class="product-title">FACE</h2>
@@ -440,32 +390,13 @@
                         </div>
                     </a>
 
-
                 </li>
                 <li class="col-sm-12 col-lg-3">
                     <a class="product-link" href="#">
                         <div class="product-img">
-                            <span class="is-tag is-new font-raleway red">Sale 15%</span>
+                            <!-- <span class="is-tag is-new font-raleway red">Sale 15%</span> -->
                             <img src="./assets/images/img_product_01.jpg" alt="img_product_04.jpg" width="250"
                                 height="355">
-                            <ul class="select-icon">
-                                <li>
-                                    <img src="./assets/images/icon_product_view.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_like.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_cart.png" alt="" width="30"
-                                        height="30">
-                                </li>
-                                <li>
-                                    <img src="./assets/images/icon_product_load.png" alt="" width="32"
-                                        height="32">
-                                </li>
-                            </ul>
                         </div>
                         <div class="product-desc">
                             <h2 class="product-title">FACE</h2>
@@ -473,8 +404,6 @@
                             <p class="product-price">
                                 <span class="price-original">¥1,203</span>
                                 <span class="price-seller">¥999</span>
-
-
                             </p>
                             <ul class="color-list">
                                 <li class="is-brown"></li>
@@ -487,7 +416,7 @@
 
                 </li>
             </ul>
-        </div> -->
+        </div>
 
         <!-- END PICK COLLECTION  -->
 
@@ -495,7 +424,7 @@
 
 
         <!-- COMMON TESTIMONAL -->
-        <!-- <div class="container-fluid section-testimonal">
+        <div class="container-fluid section-testimonal">
             <div class="container">
 
                 <div class="common-title">
@@ -517,7 +446,7 @@
 
             </div>
 
-        </div> -->
+        </div>
 
         <!-- END COMMON TESTIMONAL -->
 
@@ -525,8 +454,7 @@
 
 
         <!-- FROM OUR BLOG -->
-        <!-- <div class="container section-blog">
-
+        <div class="container section-blog">
             <div class="blog-title">
                 <p class="is-japanese">ブログ</p>
                 <h2 class="is-english font-raleway">FROM OUR BLOG</h2>
@@ -534,10 +462,9 @@
             </div>
 
             <div class="row blog-list">
-                <div class="col-sm-12 col-lg-4 blog-detail">
+                <div class="col-lg-4 col-sm-12 blog-detail">
                     <div class="blog-img">
-                        <img src="./assets/images/img_blog_01.jpg" alt="img_blog_01.jpg" width="343"
-                            height="343">
+                        <img src="./assets/images/img_blog_01.jpg" alt="img_blog_01.jpg" class="w-100">
                     </div>
 
                     <div class="blog-content">
@@ -549,10 +476,9 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-lg-4 blog-detail">
+                <div class="col-lg-4 col-sm-12 blog-detail">
                     <div class="blog-img">
-                        <img src="./assets/images/img_brand_01.jpg" alt="img_brand_01.jpg" width="343"
-                            height="343">
+                        <img src="./assets/images/img_blog_02.jpg" alt="img_brand_01.jpg" class="w-100">
                     </div>
 
                     <div class="blog-content">
@@ -564,10 +490,9 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-lg-4 blog-detail">
+                <div class="col-lg-4 col-sm-12 blog-detail">
                     <div class="blog-img">
-                        <img src="./assets/images/img_organ_02.jpg" alt="img_organ_02.jpg" width="343"
-                            height="343">
+                        <img src="./assets/images/img_organ_03.jpg" alt="img_organ_02.jpg" class="w-100">
                     </div>
 
                     <div class="blog-content">
@@ -578,18 +503,16 @@
                         <a href="#" class="blog-link">続きを読む</a>
                     </div>
                 </div>
-
-
             </div>
 
-        </div> -->
+        </div>
 
         <!-- END FROM OUR BLOG -->
 
 
 
         <!-- FOOTER -->
-        <!-- <footer>
+        <footer>
             <div class="container">
                 <div class="community-introduce">
                     <div class="community-title">
@@ -597,36 +520,36 @@
                         <h2 class="is-english font-raleway">WELCOME TO OUR COMMUNITY</h2>
                         <hr class="custom-width">
                     </div>
-                    <div class="community-content">
-                        <p class="community-text">
+                    <div class="community-content mx-auto w-75">
+                        <p class="community-text text-center">
                             サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
                     </div>
                 </div>
             </div>
             <div class="container-fluid section-organ">
-                <h2 class="organ-title font-raleway">#ORGANCOSMETICS</h2>
-                <div class="row organ-list">
-                    <div class="col organ-item">
-                        <img src="./assets/images/img_organ_01.jpg" alt="img_organ_01.jpg" width="267"
-                            height="267">
-                    </div>
-                    <div class="col organ-item">
-                        <img src="./assets/images/img_blog_03.jpg" alt="img_blog_03.jpg" width="267"
-                            height="267">
-                    </div>
-                    <div class="col organ-item">
-                        <img src="./assets/images/img_product_02.jpg" alt="img_product_02.jpg" width="267"
-                            height="267">
-                    </div>
-                    <div class="col organ-item">
-                        <img src="./assets/images/img_organ_04.jpg" alt="img_organ_04.jpg" width="267"
-                            height="267">
-                    </div>
-                    <div class="col organ-item">
-                        <img src="./assets/images/img_organ_05.jpg" alt="img_organ_05.jpg" width="267"
-                            height="267">
+                <div class="position-relative ">
+                      <span class="organ-title font-raleway position-absolute mx-auto text-center w-25 " style="top:0;left: 0;right: 0;">#ORGANCOSMETICS</span>
+
+                      <div class="row organ-list pt-4">
+                        <div class="col organ-item">
+                            <img src="./assets/images/img_organ_01.jpg" alt="img_organ_01.jpg" class="w-20">
+                        </div>
+                        <div class="col organ-item">
+                            <img src="./assets/images/img_blog_03.jpg" alt="img_blog_03.jpg" class="w-20">
+                        </div>
+                        <div class="col organ-item">
+                            <img src="./assets/images/img_organ_03.jpg" alt="img_product_02.jpg" class="w-20">
+                        </div>
+                        <div class="col organ-item">
+                            <img src="./assets/images/img_organ_04.jpg" alt="img_organ_04.jpg" class="w-20">
+                        </div>
+                        <div class="col organ-item">
+                            <img src="./assets/images/img_organ_05.jpg" alt="img_organ_05.jpg" class="w-20">
+                        </div>
                     </div>
                 </div>
+              
+               
             </div>
 
             <div class="wrapper">
@@ -654,7 +577,7 @@
 
                 </div>
             </div>
-        </footer> -->
+        </footer>
         <!-- END FOOTER -->
 
     </div>
